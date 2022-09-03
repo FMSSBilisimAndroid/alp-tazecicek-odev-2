@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Odev2FMSS</string>
+    <string name="app_name">LoginScreen</string>
+    <string name="grow_together">Grow Together</string>
+    <string name="let_s_get_started">Let’s Get Started</string>
+    <string name="join_now">JOIN NOW</string>
+    <string name="welcome_bac">Welcome Back!</string>
+    <string name="enter_your_">Enter Your Username &amp; Password</string>
+    <string name="sign_up">Sign Up</string>
+    />
 </resources>
