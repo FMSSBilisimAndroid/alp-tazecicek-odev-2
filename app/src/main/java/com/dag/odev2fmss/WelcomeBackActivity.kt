@@ -33,7 +33,7 @@ class WelcomeBackActivity : AppCompatActivity() {
         myIntent = Intent(this, CreateAccountActivity::class.java)
 
         //createNewAccount textview switches WelcomebackActivity to CreateAccountActivity
-        binding.textForgetPassword.setOnClickListener {
+        binding.textCreateNewAccount.setOnClickListener {
             startActivity(myIntent)
         }
     }
