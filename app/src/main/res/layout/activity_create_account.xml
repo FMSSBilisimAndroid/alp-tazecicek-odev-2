@@ -14,7 +14,7 @@
 
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/backSignCricle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="29dp"
@@ -24,7 +24,7 @@
             app:srcCompat="@drawable/ic_back_page_ellipse" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/backSign2"
             android:layout_width="16.5dp"
             android:layout_height="17.5dp"
             android:layout_marginStart="44dp"
@@ -34,7 +34,7 @@
             app:srcCompat="@drawable/ic_back_page_sign" />
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/backGroundCirc"
             android:layout_width="360dp"
             android:layout_height="360dp"
             android:layout_marginStart="-60dp"
@@ -44,7 +44,7 @@
             app:srcCompat="@drawable/ellipse_shape_2" />
 
         <ImageView
-            android:id="@+id/imageView11"
+            android:id="@+id/backGroundCirc2"
             android:layout_width="360dp"
             android:layout_height="380dp"
             android:layout_marginStart="120dp"
@@ -54,7 +54,7 @@
             app:srcCompat="@drawable/ellipse_shape_2" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/editText_e_mail"
             style="@style/Widget.AppCompat.AutoCompleteTextView"
             android:layout_width="333dp"
             android:layout_height="48dp"
@@ -72,7 +72,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/edittext_createUser"
             style="@style/Widget.AppCompat.AutoCompleteTextView"
             android:layout_width="333dp"
             android:layout_height="48dp"
@@ -91,7 +91,7 @@
 
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/editText_password"
             android:layout_width="333dp"
             android:layout_height="48dp"
             android:layout_marginStart="44dp"
@@ -108,7 +108,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/text_createAccount"
             android:layout_width="261dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="35dp"
@@ -130,7 +130,7 @@
             android:background="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+            app:layout_constraintTop_toBottomOf="@+id/editText_e_mail" />
 
         <View
             android:id="@+id/divider2"
@@ -141,7 +141,7 @@
             android:background="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+            app:layout_constraintTop_toBottomOf="@+id/editText_password" />
 
         <View
             android:id="@+id/divider3"
@@ -152,10 +152,10 @@
             android:background="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+            app:layout_constraintTop_toBottomOf="@+id/edittext_createUser" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/signUpButton"
             android:layout_width="230dp"
             android:layout_height="62dp"
             android:layout_marginTop="500dp"

@@ -19,17 +19,21 @@ class WelcomeBackActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        //Status bar hided.
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
 
+        //Layout binding inflated.
         binding = ActivityWelcomeBackBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //Intent assigned to myIntent.
         myIntent = Intent(this, CreateAccountActivity::class.java)
 
-        binding.textView6.setOnClickListener {
+        //createNewAccount textview switches WelcomebackActivity to CreateAccountActivity
+        binding.textForgetPassword.setOnClickListener {
             startActivity(myIntent)
         }
     }
@@ -37,12 +41,13 @@ class WelcomeBackActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
 
-        binding.button.setOnClickListener {
-            if (username == binding.editTextTextPersonName.text.toString()
-                && password == binding.editTextTextPassword.text.toString()
+        //Checking edittexts if they are empty or correct. Showing Toastmessages according to conditions.
+        binding.loginButton.setOnClickListener {
+            if (username == binding.edittextUsername.text.toString()
+                && password == binding.edittextPassword.text.toString()
             ) {
                 Toast.makeText(this, "Logged In", Toast.LENGTH_LONG).show()
-            } else if (binding.editTextTextPersonName.text.isEmpty() || binding.editTextTextPassword.text.isEmpty()) {
+            } else if (binding.edittextUsername.text.isEmpty() || binding.edittextPassword.text.isEmpty()) {
                 Toast.makeText(this, "Username or Password can't leave empty.", Toast.LENGTH_LONG)
                     .show()
             } else Toast.makeText(this, "Wrong Username or Password!", Toast.LENGTH_LONG).show()

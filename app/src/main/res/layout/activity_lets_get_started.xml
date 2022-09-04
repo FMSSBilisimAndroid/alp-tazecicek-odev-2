@@ -13,7 +13,7 @@
         tools:context=".LetsGetStartedActivity">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/circleBackground"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="31dp"
@@ -25,7 +25,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/photo2"
             android:layout_width="103dp"
             android:layout_height="103dp"
             android:layout_marginStart="249dp"
@@ -36,7 +36,7 @@
             app:shapeAppearanceOverlay="@style/Circular" />
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/photo1"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginStart="150dp"
@@ -47,7 +47,7 @@
             app:shapeAppearanceOverlay="@style/Circular" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/text_letsgetstarted"
             android:layout_width="320dp"
             android:layout_height="160dp"
             android:layout_marginStart="32dp"
@@ -63,7 +63,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/text_growtogether"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
